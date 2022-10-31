@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+  font-family: 'Prompt', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color:aliceblue;
+  box-sizing: border-box;
+}
+
+.crypto-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: aliceblue;
+}
+
+.crypto-search{
+  margin-bottom: 64px;
+}
+
+.search-input{
+  padding-left: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  box-shadow: none;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,58 @@
+.crypto-container{
+    display: flex;
+    justify-content: center;
+}
+
+.crypto-row{
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    width: 900px;
+}
+
+.crypto{
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    width: 150px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.crypto-symbol{
+    text-transform: uppercase;
+    margin: 35px;
+}
+
+.crypto-data{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+}
+
+.crypto-price{
+    width: 100px;
+}
+
+.crypto-volume{
+    width: 100px;
+}
+
+.crypto-nchange{
+    color: red;
+}
+
+.crypto-pchange{
+    color: green;
+}
